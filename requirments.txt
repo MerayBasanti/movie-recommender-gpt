@@ -1,0 +1,13 @@
+# --- Core ---
+python-dotenv==1.0.1        # For managing API keys safely
+requests==2.32.3            # To call the gpt-oss-120b API
+
+# --- Backend ---
+fastapi==0.115.0            # Web framework for backend
+uvicorn==0.30.6             # ASGI server to run FastAPI
+
+# --- Frontend (simple UI) ---
+streamlit==1.38.0           # Easiest way to build a user-friendly UI
+
+# --- Utilities ---
+pydantic==2.9.2             # Data validation (used by FastAPI)
